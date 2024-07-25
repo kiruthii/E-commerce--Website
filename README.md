@@ -2,6 +2,9 @@
 
 Welcome to the Nostra fashion website project! This repository contains the code for a stylish and responsive fashion website designed to showcase and sell a collection of fashion items.
 
+# Hosted link
+https://kiruthikaganesan757.neocities.org/Ecommerce-Project/
+
 ## Table of Contents
 
 - [Introduction](#introduction)
