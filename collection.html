@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!--my css file linked-->
+    <link rel="stylesheet" href="style.css">
+    <!--Google fonts linked-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--Font Awesome icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+
+        <div class="nav-links">
+            <p class="navbarlink1"><a href="index.html">Home</a></p>
+            <p class="navbarlink1"><a href="collection.html">Collection</a></p>
+            <p class="navbarlink1"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+
+
+    <!--side nav bar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()"><i class="fa-solid fa-xmark"></i></p>
+
+        <div class="sidenav-links">
+            <p class="navbarlink1"><a href="index.html">Home</a></p>
+            <p class="navbarlink1"><a href="collection.html">Collection</a></p>
+            <p class="navbarlink1"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+    <!--Collections-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="products" id="products">
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/dress/f/2/n/l-hed551-dressar-original-imah2jruwmdbuhym.jpeg?q=70"
+                    height="200px" width="200px">
+                <p>Women A-line Black Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/dress/k/d/l/s-f-ma28-miss-ayse-original-imagsavvbwprjms4.jpeg?q=70" height="200px" width="200px">
+                <p>Women Fit and Flare Multicolor Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/dress/t/o/w/xxl-7191-sheetal-associates-original-imaguu9rhtxmfkhu.jpeg?q=70" height="200px" width="200px">
+                <p>Women Fit and Flare Black, White Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/dress/e/t/c/s-aa-00190-white-aayu-original-imagmmfxvzmvhyru.jpeg?q=70" height="200px" width="200px">
+                <p>Women Fit and Flare White Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/krme93k0/dress/p/i/d/3xl-lucy-021022023-purvaja-original-imag5dfgzhsghtcz.jpeg?q=70" height="200px" width="200px">
+                <p>Women Fit and Flare Multicolor Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/dress/x/c/c/s-aa-0158-green-pleated-neack-dress-aayu-original-imagg7h5ggrfstrn.jpeg?q=70" height="200px" width="200px">
+                <p>Women Fit and Flare Green Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/dress/q/o/o/s-long-dress-rrclothingwear-original-imah2hgzypyx8get.jpeg?q=70" height="200px" width="200px">
+                <p>Women A-line Beige, Black Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/gown/o/b/n/na-l-half-sleeve-stitched-ss-202-femvy-na-original-imagzehhtcaju7tv.jpeg?q=70" height="200px" width="200px">
+                <p>Women Gown Black, White Dress</p>
+            </div>
+            
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/dress/f/2/n/l-hed551-dressar-original-imah2jruwmdbuhym.jpeg?q=70"
+                    height="200px" width="200px">
+                <p>Women A-line Black Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/dress/k/d/l/s-f-ma28-miss-ayse-original-imagsavvbwprjms4.jpeg?q=70" height="200px" width="200px">
+                <p>Women Fit and Flare Multicolor Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/dress/t/o/w/xxl-7191-sheetal-associates-original-imaguu9rhtxmfkhu.jpeg?q=70" height="200px" width="200px">
+                <p>Women Fit and Flare Black, White Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/dress/e/t/c/s-aa-00190-white-aayu-original-imagmmfxvzmvhyru.jpeg?q=70" height="200px" width="200px">
+                <p>Women Fit and Flare White Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/krme93k0/dress/p/i/d/3xl-lucy-021022023-purvaja-original-imag5dfgzhsghtcz.jpeg?q=70" height="200px" width="200px">
+                <p>Women Fit and Flare Multicolor Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/dress/x/c/c/s-aa-0158-green-pleated-neack-dress-aayu-original-imagg7h5ggrfstrn.jpeg?q=70" height="200px" width="200px">
+                <p>Women Fit and Flare Green Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/dress/q/o/o/s-long-dress-rrclothingwear-original-imah2hgzypyx8get.jpeg?q=70" height="200px" width="200px">
+                <p>Women A-line Beige, Black Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/dress/e/t/c/s-aa-00190-white-aayu-original-imagmmfxvzmvhyru.jpeg?q=70" height="200px" width="200px">
+                <p>Women Fit and Flare White Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/krme93k0/dress/p/i/d/3xl-lucy-021022023-purvaja-original-imag5dfgzhsghtcz.jpeg?q=70" height="200px" width="200px">
+                <p>Women Fit and Flare Multicolor Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/dress/y/x/w/s-aa-00191-pink-aayu-original-imagmmhqz2gthb8v.jpeg?q=70" height="200px" width="200px">
+                <p>Women A-line Beige, Black Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/dress/e/t/c/s-aa-00190-white-aayu-original-imagmmfxvzmvhyru.jpeg?q=70" height="200px" width="200px">
+                <p>Women Fit and Flare White Dress</p>
+            </div>
+            <div class="product-box">
+                <img src="https://rukminim2.flixcart.com/image/612/612/krme93k0/dress/p/i/d/3xl-lucy-021022023-purvaja-original-imag5dfgzhsghtcz.jpeg?q=70" height="200px" width="200px">
+                <p>Women Fit and Flare Multicolor Dress</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footerbox-1">
+                <h2 class="headingtext">Nostra</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit distinctio iure enim, rem obcaecati
+                    fugit sunt harum aliquid vel reiciendis!</p>
+                <div class="footericon">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@ 2024 Nostra.com</p>
+    </div>
+
+
+    <script src="collection.js"></script>
+</body>
+
+</html>

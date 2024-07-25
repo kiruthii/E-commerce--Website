@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25)0px 13px 27px -5px, rgba(0, 0, 0, 0.3)0px 13px 27px -5px;
+}
+
+.nav-links {
+    display: flex;
+    column-gap: 20px;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #10232C;
+
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    color: #10232C;
+
+}
+
+.navbar-menu-toggle {
+    display: none;
+}
+
+/*side navbar*/
+.side-navbar {
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    padding: 20px;
+    color: white;
+    transition: 2s;
+
+}
+
+.side-navbarlink1 {
+    margin-bottom: 30px;
+
+}
+
+.sidenav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidenav-links a:hover {
+    text-decoration: underline;
+
+}
+
+/*header*/
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+
+
+}
+
+.headbtn {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: #10232C;
+    color: white;
+    cursor: pointer;
+}
+
+.service {
+    padding: 20px;
+}
+
+.service-container-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.service-container-2 div {
+    background-color: #f2f4f7;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+
+/*New Arrival*/
+.newArrival {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+.arrival-container {
+    position: relative;
+    flex-basis: 20%;
+}
+
+.arrival-container button {
+    padding-left:10% ;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10px;
+    color: #10232C;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    border-radius: 10px;
+    border:none;
+}
+
+.News{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.News input{
+    padding: 11px;
+    width: 80vw;
+    margin-bottom: 10px;
+    border:solid black 3px;
+}
+.News button{
+    margin-top: 10px;
+    color: #f2f4f7;
+    background-color: #10232C;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.footer{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #10232C;
+    color: white;
+}
+
+
+/*collection page*/
+.product-search{
+    width:80%;
+    border: solid black 2px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+.product-search input{
+    border:none;
+    background-color: transparent;
+    width: 100%;
+}
+.product-search input:hover{
+    outline: none;
+
+}
+
+
+
+.products{
+    padding: 20px;
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-box{
+    text-align: center;
+    flex-basis: 20%;
+}
+.product-box img{
+    border-radius: 10px;
+}
+
+
+/*contact-page*/
+.contact{
+    background-color: black;
+    display: inline-block;
+    
+    color: white;
+    padding: 20px;
+    margin-left: 20%;
+    margin-top: 3%;
+    width: 60%;
+    
+    
+   
+}
+
+.contactus p{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.contactus input{
+    padding: 10px;
+    width:90%;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 30px;
+
+}
+.contactus textarea{
+    padding: 10px;
+    width:90%;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+.contactus button{
+    padding: 10px;
+    background-color: #10232C;
+    
+    margin:5px;
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+/*Media-Query*/
+@media screen and (max-width:600px) {
+    .navbar-menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .headimg {
+        display: none;
+    }
+
+    .service-container-1 {
+        display: none;
+    }
+
+    .service-container-2 {
+        flex-direction: column;
+    }
+    .contact{
+        width: auto;
+    }
+    .contact input{
+        width: auto;
+    }
+    .contact textarea{
+        width:auto;
+    }
+}
